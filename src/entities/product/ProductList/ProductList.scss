@@ -1,0 +1,61 @@
+@import "~@react-md/elevation/dist/mixins";
+@import "~@react-md/theme/dist/mixins";
+
+.productbar {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 0px 14px;
+  &__actions {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+.card {
+  @include rmd-elevation(2);
+  @include rmd-theme-dark-elevation(2, true);
+  margin-bottom: 20px;
+
+  .rmd-card__header {
+    padding: 20px;
+  }
+  .rmd-card__content {
+    .card__img {
+      width: 100px;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+}
+
+#skip-to-main-content {
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+  &:focus, &:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+}
+
+
+#configurable-layout-header{
+  display: none;
+}

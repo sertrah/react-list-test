@@ -1,0 +1,30 @@
+@import 'styles/variables';
+@import '~@react-md/layout/dist/mixins';
+@import '~@react-md/states/dist/mixins';
+@import '~@react-md/theme/dist/mixins';
+@import '~@react-md/typography/dist/mixins';
+@import '~@react-md/utils/dist/mixins';
+@import '~@react-md/form/dist/mixins';
+
+@include react-md-utils;
+
+:root {
+    --white: #fff;
+    --gray-color: #d9dcdb;
+}
+
+h5, h6 {
+    margin: 0.1em;
+}
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#main--container {
+    padding-top: 44px;
+}

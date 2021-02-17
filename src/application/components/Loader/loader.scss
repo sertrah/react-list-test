@@ -1,0 +1,31 @@
+.loader {
+  background-color: #8b8b8b17;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  &--item {
+    border: 16px solid var(--rmd-app-bar-primary, #009688);
+    border-top: 16px solid var(--gray-color, #ccc);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 3s linear infinite;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
