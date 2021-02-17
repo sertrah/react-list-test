@@ -4,7 +4,13 @@ NODE 14.15.4
 
 Una app sencilla, pero con amor. pues con humildad practicamente. 
 :D 
+## Main libs
+  React query, Hook forms, ReactMD, sass.
 
+## Scaffold 
+  application: Everything related that affects the UI / UX or the business logic
+  entities: An entity  could be anything but it has to be unique to the system and in fact depending on the subdomain you are in, the identity/entity might change.
+  infraestructure: The layer in charge of connecting with the API or providing a centralization of transversal code
 
 ## Available Scripts
 
