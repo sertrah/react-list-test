@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# INF
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NODE 14.15.4
+
+Una app sencilla, pero con amor. pues con humildad practicamente. 
+:D 
+
 
 ## Available Scripts
 
